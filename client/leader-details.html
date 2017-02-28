@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en" ng-app="application">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaders List</title>
+    <link href="./src/css/app.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,300,700,900" rel="stylesheet" type="text/css">
+    <script src="./src/js/foundation.js"></script>
+    <script src="./src/js/templates.js"></script>
+    <script src="./src/js/routes.js"></script>
+    <script src="./src/js/app.js"></script>
+</head>
+
+<body>
+    <div class="grid-frame">
+        <div class="vertical grid-block leader-details">
+            <!-- This is similar to a row in regular foundation -->
+            <div class="grid-content green">
+                <!-- This is similar to a column in regular foundation -->
+                <div id="leader-details" class="leader-details-container">
+                    <div class="leader-details-header">
+                        <div class="back-button">
+                            <img src="images/back-button.png" alt="Back">
+                        </div>
+                        <h1>BACK</h1>
+                    </div>
+                    <div class="leader-details-stock-block">
+                        <div class="leader-details-stock-content">
+                            <div class="trade-information-container">
+                                <div class="trade-information-content">
+                                    <h2 class="trade-symbol">NFLX</h2>
+                                </div>
+                                <div class="trade-name">
+                                    <p>Netflix Inc.</p>
+                                </div>
+                            </div>
+                            <div class="trade-stats-section">
+                                <div class="trade-stats">
+                                    <span class="stock-price-percent-change">(0.51%)</span>
+                                    <span class="stock-price-change">0.51</span>
+                                    <span class="price-change-arrow">
+                                        <img src ="images/green-arrow.png" alt="Green Arrow">
+                                    </span>
+                                    <span class="stock-price">99.66</span>
+                                </div>
+                                <div class="volume-change-section">
+                                    <span class="volume-change">-54%</span>
+                                    <span class="volume-change-label">Volume Chg</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leader-details-content">
+                        <div zf-tabs="" id="leader-details-tabs">
+                            <div zf-tab="" title="SUMMARY" class="summary-tab active">
+                                <div class="summary-tab-content">
+                                    <h1>UPDATES</h1>
+                                    <span class="last-updated">LAST UPDATED 9:34 AM</span>
+                                    <div class="updates-container">
+                                        <div class="update-block">
+                                            <p>Acuity brands is still in buy range from a 264.10 entry. With no clear opportunity to add shares, investors can stick with their current position and continue watching. Overall, the tight action is positive. With no clear opportunity to add shares.</p>
+                                        </div>
+                                    </div>
+                                    <div class="highlights-container">
+                                        <h1>BACKSTORY</h1>
+                                        <p>The S&amp;P 500 component is a supplier of lighting products, and its LED wares are seeing strong demand. Yet the company has also been making strategic acquisitions to position itself as a go-to complany for Iot (Internet of Things) connectivity.</p>
+                                        <p>On Dec. 10, Acuity completed its acquisition of Juno Lighting Group, a maker of LED-based down and track-lighting fixtures. Juno generates $250 million in annual revenue. On June 29, Acuity reported fiscal Q3 profit of $2.06 a share up 40% from last year and 3...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div zf-tab="" title="CHECKLIST" class="checklist-tab">
+                                <div class="checklist-tab-content">
+                                    <h1>Market & Industry Performance</h1>
+                                    <div class="market-and-industry-performance-container">
+                                        <div class="composite-rating-container">
+                                            <h2>Composite Rating</h2>
+                                            <span class="green-marker">
+                                                <img src="images/green-marker.png" alt="green-marker">
+                                            </span>
+                                            <span class="composite-rating">98</span>
+                                        </div>
+                                        <div class="uptrend-container">
+                                            <h2>Uptrend under presure</h2>
+                                            <span class="yellow-marker">
+                                                <img src="images/yellow-marker.png" alt="yellow-marker">
+                                            </span>
+                                        </div>
+                                        <div class="industry-rank-container">
+                                            <h2>Industry Group Rank (1 to 197)</h2>
+                                            <span class="green-marker">
+                                                <img src="images/green-marker.png" alt="green-marker">
+                                            </span>
+                                            <span class="industry-rank">32</span>
+                                        </div>
+                                    </div>
+                                    <h1>Fundamental Performance</h1>
+                                    <div class="fundamental-performance-container">
+                                        
+                                        <div class="current-earnings-container">
+                                            <h2>CURRENT EARNINGS</h2>
+                                        </div>
+                                        
+                                        <div class="eps-due-date-container">
+                                            <h2>EPS Due Date</h2>
+                                            <span class="green-marker">
+                                                <img src="images/green-marker.png" alt="green-marker">
+                                            </span>
+                                            <span class="eps-due-date">10/05/2016</span>
+                                        </div>
+                                        
+                                        <div class="eps-rating-container">
+                                            <h2>EPS Rating</h2>
+                                            <span class="yellow-marker">
+                                                <img src="images/yellow-marker.png" alt="yellow-marker">
+                                            </span>
+                                            <span class="eps-rating">98</span>
+                                        </div>
+                                        
+                                        <div class="eps-change-container">
+                                            <h2>EPS % Change (Last Qtr)</h2>
+                                            <span class="green-marker">
+                                                <img src="images/green-marker.png" alt="green-marker">
+                                            </span>
+                                            <span class="eps-change">40%</span>
+                                        </div>
+                                        
+                                        <div class="avg-eps-container">
+                                            <h2>Last 3 Qtrs Avg EPS Growth</h2>
+                                            <span class="green-marker">
+                                                <img src="images/green-marker.png" alt="green-marker">
+                                            </span>
+                                            <span class="avg-eps">39%</span>
+                                        </div>
+                                        
+                                        <div class="eps-acceleration-container">
+                                            <h2># Qtrs of EPS Acceleration</h2>
+                                            <span class="yellow-marker">
+                                                <img src="images/yellow-marker.png" alt="yellow-marker">
+                                            </span>
+                                            <span class="eps-acceleration">0</span>
+                                        </div>
+                                        
+                                        <div class="eps-estimated-percent-container">
+                                            <h2>EPS EST % CHG (Current Qtr)</h2>
+                                            <span class="green-marker">
+                                                <img src="images/green-marker.png" alt="green-marker">
+                                            </span>
+                                            <span class="eps-estimated-percent">45%</span>
+                                        </div>
+                                        
+                                        <div class="estimate-revisions-container">
+                                            <h2>Estimate Revisions</h2>
+                                            <span class="green-marker">
+                                                <img src="images/green-marker.png" alt="green-marker">
+                                            </span>
+                                        </div>
+                                        
+                                        <div class="qtr-earnings-container">
+                                            <h2>Last QTR % Earnings Surprise</h2>
+                                            <span class="yellow-marker">
+                                                <img src="images/yellow-marker.png" alt="yellow-marker">
+                                            </span>
+                                            <span class="qtr-earnings">1.5%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div zf-tab="" title="ANNOTATION LIST" class="annotation-list-tab">
+                                <div class="annotation-list-tab-content">
+                                    <div class="annotation-list-chart">
+                                    </div>
+                                    <div class="blue-container">
+                                        <div class="annotation-chart-controls">
+                                            <div class="chart-slider-container">
+                                                <input type="range" class="chart-slider">
+                                                <label class="chart-slider-label">Last 2 weeks</label>
+                                            </div>
+                                            <div class="grid-block annotation-chart-checkbox-container">
+                                                <div class="small-4 buy-signals-container grid-content">
+                                                    <input id="checkbox1" type="checkbox" name="buy-signals" value="buy-signals"> 
+                                                    <label for="checkbox1">Buy Signals</label>
+                                                </div>
+                                                <div class="small-4 sell-signals-container grid-content">
+                                                    <input id="checkbox2" type="checkbox" name="sell-signals" value="sell-signals">
+                                                    <label for="checkbox2">Sell Signals</label>
+                                                </div>
+                                                <div class="small-4 notes-container grid-content">
+                                                    <input id="checkbox3" type="checkbox" name="notes" value="notes">
+                                                    <label for="checkbox3">Notes</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="annotation-list-container">
+                                            <div class="grid-block annotation-list-block">
+                                                <div class="small-2 grid-content annotation-date">
+                                                    <p>08/15/16</p>
+                                                </div>
+                                                <div class="small-1 grid-content annotation-marker">
+                                                    <img src="images/blue-marker.png" alt="Blue Marker">
+                                                </div>
+                                                <div class="small-9 grid-content annotation-message">
+                                                    <p>Buy range to 277.31 from 264.10</p>
+                                                </div>
+                                            </div>
+                                            <div class="grid-block annotation-list-block">
+                                                <div class="small-2 grid-content annotation-date">
+                                                    <p>06/12/16</p>
+                                                </div>
+                                                <div class="small-1 grid-content annotation-marker">
+                                                    <img src="images/red-marker.png" alt="Red Marker">
+                                                </div>
+                                                <div class="small-9 grid-content annotation-message">
+                                                    <p>Fell 8% below 260.93 entry, a sell signal</p>
+                                                </div>
+                                            </div>
+                                            <div class="grid-block annotation-list-block">
+                                                <div class="small-2 grid-content annotation-date">
+                                                    <p>06/12/16</p>
+                                                </div>
+                                                <div class="small-1 grid-content annotation-marker">
+                                                    <img src="images/white-marker.png" alt="White Marker">
+                                                </div>
+                                                <div class="small-9 grid-content annotation-message">
+                                                    <p>260.93 buy point</p>
+                                                </div>
+                                            </div>
+                                            <div class="grid-block annotation-list-block">
+                                                <div class="small-2 grid-content annotation-date">
+                                                    <p>06/12/16</p>
+                                                </div>
+                                                <div class="small-1 grid-content annotation-marker">
+                                                    <img src="images/red-marker.png" alt="Red Marker">
+                                                </div>
+                                                <div class="small-9 grid-content annotation-message">
+                                                    <p>Buy range to 277.41 from 264.10</p>
+                                                </div>
+                                            </div>
+                                            <div class="grid-block annotation-list-block">
+                                                <div class="small-2 grid-content annotation-date">
+                                                    <p>06/12/16</p>
+                                                </div>
+                                                <div class="small-1 grid-content annotation-marker">
+                                                    <img src="images/red-marker.png" alt="Red Marker">
+                                                </div>
+                                                <div class="small-9 grid-content annotation-message">
+                                                    <p>Fell 8% below 260.93 entry, a sell signal</p>
+                                                </div>
+                                            </div>
+                                            <div class="grid-block annotation-list-block">
+                                                <div class="small-2 grid-content annotation-date">
+                                                    <p>06/12/16</p>
+                                                </div>
+                                                <div class="small-1 grid-content annotation-marker">
+                                                    <img src="images/blue-marker.png" alt="Blue Marker">
+                                                </div>
+                                                <div class="small-9 grid-content annotation-message">
+                                                    <p>260.93 buy point</p>
+                                                </div>
+                                            </div>
+                                            <div class="grid-block annotation-list-block">
+                                                <div class="small-2 grid-content annotation-date">
+                                                    <p>06/12/16</p>
+                                                </div>
+                                                <div class="small-1 grid-content annotation-marker">
+                                                    <img src="images/blue-marker.png" alt="Blue Marker">
+                                                </div>
+                                                <div class="small-9 grid-content annotation-message">
+                                                    <p>Fell 8% below 260.93 entry, a sell signal</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

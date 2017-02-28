@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en" ng-app="application">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaders List</title>
+    <link href="./src/css/app.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,300,700,900" rel="stylesheet" type="text/css">
+    <script src="./src/js/foundation.js"></script>
+    <script src="./src/js/templates.js"></script>
+    <script src="./src/js/routes.js"></script>
+    <script src="./src/js/app.js"></script>
+</head>
+
+<body class="light">
+    <div class="grid-frame">
+        <div class="vertical grid-block leaders-list">
+            <!-- This is similar to a row in regular foundation -->
+            <div class="grid-content">
+                <!-- This is similar to a column in regular foundation -->
+                <div class="primary title-bar">
+                    <div class="title">
+                        <p>LEADERBOARD</p>
+                    </div>
+                </div>
+                <div id="scrolling-stock-ticker-container">
+                    <p>Dummy Content</p>
+                </div>
+                <div id="leaders-list" class="leaders-list-container">
+                    <div class="leader-buy-point-header-container">
+                        <h1>LEADERS NEAR A BUY POINT</h1>
+                        <span class="info-button" zf-open="basicModal">
+                        	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90"><title>info-icon</title><path class="info-icon-svg" d="M49.979,20a6.35,6.35,0,0,0-4.713,1.988,6.684,6.684,0,0,0,0,9.424,6.679,6.679,0,0,0,9.424,0A6.346,6.346,0,0,0,56.678,26.7,6.712,6.712,0,0,0,49.979,20ZM40,40v2.5c1.305,0.079,5,2.5,5,5v25a4.874,4.874,0,0,1-5,5V80H60V77.5c-2.428-.15-4.979-1.36-5-5V40H40Z" transform="translate(-5 -4.999)"/><path class="info-icon-svg" d="M50,5A45,45,0,1,0,95,50,45.038,45.038,0,0,0,50,5Zm0,5A40,40,0,1,1,10,50,39.962,39.962,0,0,1,50,10Z" transform="translate(-5 -4.999)"/></svg>
+                        </span>
+                        <div zf-modal="" class="info-modal" id="basicModal">
+                            <a zf-close="" class="close-button">×</a>
+                            <h3>Back in my days...</h3>
+                            <p>There were 3 Star Wars movies and Disney only made cartoons.</p>
+                        </div>
+                    </div>
+                    <div id="leaders-buy-list">
+                        <div class="leaders-list-stock-block">
+                            <div class="leaders-list-stock-content leader-green">
+                                <div class="trade-information-container">
+                                    <div class="trade-information-content">
+                                        <h2 class="trade-symbol">NFLX</h2>
+                                    </div>
+                                    <div class="trade-name">
+                                        <p>Netflix Inc.</p>
+                                    </div>
+                                </div>
+                                <div class="trade-stats-section">
+                                    <div class="trade-stats">
+                                        <span class="stock-price-percent-change">(0.51%)</span>
+                                        <span class="stock-price-change">0.51</span>
+                                        <span class="price-change-arrow">
+                                            <img src ="images/green-arrow.png" alt="Green Arrow">
+                                        </span>
+                                        <span class="stock-price">99.66</span>
+                                    </div>
+                                    <div class="volume-change-section">
+                                        <span class="volume-change">-54%</span>
+                                        <span class="volume-change-label">Volume Chg</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="leaders-list-stock-block">
+                            <div class="leaders-list-stock-content leader-green">
+                                <div class="trade-information-container">
+                                    <div class="trade-information-content">
+                                        <h2 class="trade-symbol">NFLX</h2>
+                                    </div>
+                                    <div class="trade-name">
+                                        <p>Netflix Inc.</p>
+                                    </div>
+                                </div>
+                                <div class="trade-stats-section">
+                                    <div class="trade-stats">
+                                        <span class="stock-price-percent-change">(0.51%)</span>
+                                        <span class="stock-price-change">0.51</span>
+                                        <span class="price-change-arrow">
+                                            <img src ="images/green-arrow.png" alt="Green Arrow">
+                                        </span>
+                                        <span class="stock-price">99.66</span>
+                                    </div>
+                                    <div class="volume-change-section">
+                                        <span class="volume-change">-54%</span>
+                                        <span class="volume-change-label">Volume Chg</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="leaders-list-stock-block">
+                            <div class="leaders-list-stock-content leader-green">
+                                <div class="trade-information-container">
+                                    <div class="trade-information-content">
+                                        <h2 class="trade-symbol">NFLX</h2>
+                                    </div>
+                                    <div class="trade-name">
+                                        <p>Netflix Inc.</p>
+                                    </div>
+                                </div>
+                                <div class="trade-stats-section">
+                                    <div class="trade-stats">
+                                        <span class="stock-price-percent-change">(0.51%)</span>
+                                        <span class="stock-price-change">0.51</span>
+                                        <span class="price-change-arrow">
+                                            <img src ="images/green-arrow.png" alt="Green Arrow">
+                                        </span>
+                                        <span class="stock-price">99.66</span>
+                                    </div>
+                                    <div class="volume-change-section">
+                                        <span class="volume-change">-54%</span>
+                                        <span class="volume-change-label">Volume Chg</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="leaders-list-stock-block">
+                            <div class="leaders-list-stock-content leader-green">
+                                <div class="trade-information-container">
+                                    <div class="trade-information-content">
+                                        <h2 class="trade-symbol">NFLX</h2>
+                                    </div>
+                                    <div class="trade-name">
+                                        <p>Netflix Inc.</p>
+                                    </div>
+                                </div>
+                                <div class="trade-stats-section">
+                                    <div class="trade-stats">
+                                        <span class="stock-price-percent-change">(0.51%)</span>
+                                        <span class="stock-price-change">0.51</span>
+                                        <span class="price-change-arrow">
+                                            <img src ="images/green-arrow.png" alt="Green Arrow">
+                                        </span>
+                                        <span class="stock-price">99.66</span>
+                                    </div>
+                                    <div class="volume-change-section">
+                                        <span class="volume-change">-54%</span>
+                                        <span class="volume-change-label">Volume Chg</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="leaders-header-container">
+                        <h1>LEADERS</h1>
+                        <span class="info-button" zf-open="basicModal">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90"><title>info-icon</title><path class="info-icon-svg" d="M49.979,20a6.35,6.35,0,0,0-4.713,1.988,6.684,6.684,0,0,0,0,9.424,6.679,6.679,0,0,0,9.424,0A6.346,6.346,0,0,0,56.678,26.7,6.712,6.712,0,0,0,49.979,20ZM40,40v2.5c1.305,0.079,5,2.5,5,5v25a4.874,4.874,0,0,1-5,5V80H60V77.5c-2.428-.15-4.979-1.36-5-5V40H40Z" transform="translate(-5 -4.999)"/><path class="info-icon-svg" d="M50,5A45,45,0,1,0,95,50,45.038,45.038,0,0,0,50,5Zm0,5A40,40,0,1,1,10,50,39.962,39.962,0,0,1,50,10Z" transform="translate(-5 -4.999)"/></svg>
+                        </span>
+                        <div zf-modal="" class="info-modal" id="basicModal">
+                            <a zf-close="" class="close-button">×</a>
+                            <h3>Back in my days...</h3>
+                            <p>There were 3 Star Wars movies and Disney only made cartoons.</p>
+                        </div>
+                    </div>
+                    <div id="leaders-hold-list">
+                        <div class="leaders-list-stock-block">
+                            <div class="leaders-list-stock-content leader-yellow">
+                                <div class="trade-information-container">
+                                    <div class="trade-information-content">
+                                        <h2 class="trade-symbol">NFLX</h2>
+                                    </div>
+                                    <div class="trade-name">
+                                        <p>Netflix Inc.</p>
+                                    </div>
+                                </div>
+                                <div class="trade-stats-section">
+                                    <div class="trade-stats">
+                                        <span class="stock-price-percent-change">(0.51%)</span>
+                                        <span class="stock-price-change">0.51</span>
+                                        <span class="price-change-arrow">
+                                            <img src ="images/green-arrow.png" alt="Green Arrow">
+                                        </span>
+                                        <span class="stock-price">99.66</span>
+                                    </div>
+                                    <div class="volume-change-section">
+                                        <span class="volume-change">-54%</span>
+                                        <span class="volume-change-label">Volume Chg</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="short-sales-header-container">
+                        <h1>SHORT SALES</h1>
+                        <span class="info-button" zf-open="basicModal">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90"><title>info-icon</title><path class="info-icon-svg" d="M49.979,20a6.35,6.35,0,0,0-4.713,1.988,6.684,6.684,0,0,0,0,9.424,6.679,6.679,0,0,0,9.424,0A6.346,6.346,0,0,0,56.678,26.7,6.712,6.712,0,0,0,49.979,20ZM40,40v2.5c1.305,0.079,5,2.5,5,5v25a4.874,4.874,0,0,1-5,5V80H60V77.5c-2.428-.15-4.979-1.36-5-5V40H40Z" transform="translate(-5 -4.999)"/><path class="info-icon-svg" d="M50,5A45,45,0,1,0,95,50,45.038,45.038,0,0,0,50,5Zm0,5A40,40,0,1,1,10,50,39.962,39.962,0,0,1,50,10Z" transform="translate(-5 -4.999)"/></svg>
+                        </span>
+                        <div zf-modal="" class="info-modal" id="basicModal">
+                            <a zf-close="" class="close-button">×</a>
+                            <h3>Back in my days...</h3>
+                            <p>There were 3 Star Wars movies and Disney only made cartoons.</p>
+                        </div>
+                    </div>
+                    <div id="leaders-cut-list">
+                        <div class="leaders-list-stock-block">
+                            <div class="leaders-list-stock-content leader-red">
+                                <div class="trade-information-container">
+                                    <div class="trade-information-content">
+                                        <h2 class="trade-symbol">NFLX</h2>
+                                    </div>
+                                    <div class="trade-name">
+                                        <p>Netflix Inc.</p>
+                                    </div>
+                                </div>
+                                <div class="trade-stats-section">
+                                    <div class="trade-stats">
+                                        <span class="stock-price-percent-change">(0.51%)</span>
+                                        <span class="stock-price-change">0.51</span>
+                                        <span class="price-change-arrow">
+                                            <img src ="images/green-arrow.png" alt="Green Arrow">
+                                        </span>
+                                        <span class="stock-price">99.66</span>
+                                    </div>
+                                    <div class="volume-change-section">
+                                        <span class="volume-change">-54%</span>
+                                        <span class="volume-change-label">Volume Chg</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="earnings-options-header-container">
+                        <h1>EARNINGS OPTIONS</h1>
+                        <span class="info-button" zf-open="basicModal">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90"><title>info-icon</title><path class="info-icon-svg" d="M49.979,20a6.35,6.35,0,0,0-4.713,1.988,6.684,6.684,0,0,0,0,9.424,6.679,6.679,0,0,0,9.424,0A6.346,6.346,0,0,0,56.678,26.7,6.712,6.712,0,0,0,49.979,20ZM40,40v2.5c1.305,0.079,5,2.5,5,5v25a4.874,4.874,0,0,1-5,5V80H60V77.5c-2.428-.15-4.979-1.36-5-5V40H40Z" transform="translate(-5 -4.999)"/><path class="info-icon-svg" d="M50,5A45,45,0,1,0,95,50,45.038,45.038,0,0,0,50,5Zm0,5A40,40,0,1,1,10,50,39.962,39.962,0,0,1,50,10Z" transform="translate(-5 -4.999)"/></svg>
+                        </span>
+                        <div zf-modal="" class="info-modal" id="basicModal">
+                            <a zf-close="" class="close-button">×</a>
+                            <h3>Back in my days...</h3>
+                            <p>There were 3 Star Wars movies and Disney only made cartoons.</p>
+                        </div>
+                    </div>
+                    <div id="leaders-options-list">
+                        <div class="leaders-list-stock-block">
+                            <div class="leaders-list-stock-content leader-blue">
+                                <div class="trade-information-container">
+                                    <div class="trade-information-content">
+                                        <h2 class="trade-symbol">NFLX</h2>
+                                    </div>
+                                    <div class="trade-name">
+                                        <p>Netflix Inc.</p>
+                                    </div>
+                                </div>
+                                <div class="trade-stats-section">
+                                    <div class="trade-stats">
+                                        <span class="stock-price-percent-change">(0.51%)</span>
+                                        <span class="stock-price-change">0.51</span>
+                                        <span class="price-change-arrow">
+                                            <img src ="images/green-arrow.png" alt="Green Arrow">
+                                        </span>
+                                        <span class="stock-price">99.66</span>
+                                    </div>
+                                    <div class="volume-change-section">
+                                        <span class="volume-change">-54%</span>
+                                        <span class="volume-change-label">Volume Chg</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="the-cut-list-header-container">
+                        <h1>THE CUT LIST</h1>
+                        <span class="info-button" zf-open="basicModal">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90"><title>info-icon</title><path class="info-icon-svg" d="M49.979,20a6.35,6.35,0,0,0-4.713,1.988,6.684,6.684,0,0,0,0,9.424,6.679,6.679,0,0,0,9.424,0A6.346,6.346,0,0,0,56.678,26.7,6.712,6.712,0,0,0,49.979,20ZM40,40v2.5c1.305,0.079,5,2.5,5,5v25a4.874,4.874,0,0,1-5,5V80H60V77.5c-2.428-.15-4.979-1.36-5-5V40H40Z" transform="translate(-5 -4.999)"/><path class="info-icon-svg" d="M50,5A45,45,0,1,0,95,50,45.038,45.038,0,0,0,50,5Zm0,5A40,40,0,1,1,10,50,39.962,39.962,0,0,1,50,10Z" transform="translate(-5 -4.999)"/></svg>
+                        </span>
+                        <div zf-modal="" class="info-modal" id="basicModal">
+                            <a zf-close="" class="close-button">×</a>
+                            <h3>Back in my days...</h3>
+                            <p>There were 3 Star Wars movies and Disney only made cartoons.</p>
+                        </div>
+                    </div>
+                    <div id="leaders-short-sales-list">
+                        <div class="leaders-list-stock-block">
+                            <div class="leaders-list-stock-content leader-orange">
+                                <div class="trade-information-container">
+                                    <div class="trade-information-content">
+                                        <h2 class="trade-symbol">NFLX</h2>
+                                    </div>
+                                    <div class="trade-name">
+                                        <p>Netflix Inc.</p>
+                                    </div>
+                                </div>
+                                <div class="trade-stats-section">
+                                    <div class="trade-stats">
+                                        <span class="stock-price-percent-change">(0.51%)</span>
+                                        <span class="stock-price-change">0.51</span>
+                                        <span class="price-change-arrow">
+                                            <img src ="images/green-arrow.png" alt="Green Arrow">
+                                        </span>
+                                        <span class="stock-price">99.66</span>
+                                    </div>
+                                    <div class="volume-change-section">
+                                        <span class="volume-change">-54%</span>
+                                        <span class="volume-change-label">Volume Chg</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
